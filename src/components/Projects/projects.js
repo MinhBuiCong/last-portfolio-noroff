@@ -3,12 +3,13 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 function Projects({ data }) {
-  const { id, title, image, description, startDate, endDate } = data;
+  const { id, title, description, startDate, endDate } = data;
   return (
     <Link to={`${id}`} key={id} state={{ data: data }}>
       <div>
         <h1>{title}</h1>
         <p>{description}</p>
+        {/* <img src={image} alt={title} /> */}
         <span>{startDate}</span>
         <span>{endDate}</span>
       </div>
