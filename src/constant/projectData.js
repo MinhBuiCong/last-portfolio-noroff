@@ -1,12 +1,12 @@
-// import holidaze from "../image/holidaze";
-// import jsFrameworks from "../image/jsFrameworks";
-// import tekshop from "../image/tekshop";
+import holidaze from "../image/holidaze.png";
+import jsFrameworks from "../image/jsFrameworks.png";
+import tekshop from "../image/tekshop.png";
 
 export const ProjectData = [
   {
     id: 0,
     title: "Holidaze",
-    // image: holidaze,
+    image: holidaze,
     description: "holidaze description",
     startDate: "April 2022",
     endDate: "May 2022",
@@ -17,7 +17,7 @@ export const ProjectData = [
   {
     id: 1,
     title: "JS framework",
-    // image: jsFrameworks,
+    image: jsFrameworks,
     description: "JS framework description",
     startDate: "March 2022",
     endDate: "March 2022",
@@ -28,7 +28,7 @@ export const ProjectData = [
   {
     id: 2,
     title: "Tekshop",
-    // image: tekshop,
+    image: tekshop,
     description: "Tekshop description",
     startDate: "November 2021",
     endDate: "December 2021",
