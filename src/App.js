@@ -10,7 +10,7 @@ import NavBar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Home from "./components/Home/home";
-import Projects from "./components/Projects/projects";
+import ProjectPage from "./components/Projects/projectPage";
 import ProjectDetail from "./components/Projects/projectDetail";
 import Contact from "./components/Contact/contact";
 
@@ -40,7 +40,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects" element={<ProjectPage />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
