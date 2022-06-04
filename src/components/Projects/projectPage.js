@@ -7,8 +7,9 @@ function ProjectPage() {
 
   return (
     <div className="project-container">
+      <h1 className="project-title">Projects</h1>
       {projectInfo.map(function (data) {
-        return <Projects id={data.id} data={data} />;
+        return <Projects key={data.id} data={data} />;
       })}
     </div>
   );

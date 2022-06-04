@@ -7,7 +7,7 @@ function Projects({ data }) {
   const { id, title, shortDescription } = data;
   return (
     <Link to={`${id}`} key={id} className="card-link" state={{ data: data }}>
-      <Card className="card-container" style={{ width: "30rem" }}>
+      <Card className="card-container" key={id}>
         <Card.Body className="card-text-container">
           <Card.Title className="card-title">{title}</Card.Title>
           <Card.Text className="card-description">{shortDescription}</Card.Text>
