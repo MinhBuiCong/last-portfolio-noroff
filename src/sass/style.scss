@@ -1,0 +1,9 @@
+@import "partials/custom";
+@import "partials/navbar";
+@import "partials/projects";
+@import "partials/projectDetail";
+@import "partials/home";
+
+* {
+  font-family: $font-heading;
+}
