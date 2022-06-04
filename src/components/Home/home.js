@@ -24,20 +24,22 @@ function Home() {
       <div className="about-text-container">
         <p className="about-text">{intro}</p>
         <p className="about-text">{main}</p>
+        <p className="about-text">Fun fact about me:</p>
         <p className="about-text">{end}</p>
       </div>
       <div className="about-link-container">
+        <h2 className="about-link-title">Contact links</h2>
         <a className="about-link" href={gitLink}>
-          <FaGithub />
+          <FaGithub className="icon" />
         </a>
         <a className="about-link" href={facebookLink}>
-          <FaFacebook />
+          <FaFacebook className="icon" />
         </a>
         <a className="about-link" href={igLink}>
-          <FaInstagram />
+          <FaInstagram className="icon" />
         </a>
         <a className="about-link" href={linkedInLink}>
-          <FaLinkedin />
+          <FaLinkedin className="icon" />
         </a>
       </div>
     </div>

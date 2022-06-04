@@ -11,6 +11,8 @@
   .about-title {
     margin-bottom: 2rem;
     font-family: $font-heading;
+    font-size: $heading-primary;
+    color: $heading-color;
   }
   .about-img {
     width: 300px;
@@ -35,5 +37,21 @@
     box-shadow: $box-shadow;
     border-radius: $border-radius;
     background-color: white;
+    max-width: 800px;
+    .about-link-title {
+      margin-bottom: 2rem;
+      font-size: $heading-secondary;
+    }
+    .about-link {
+      .icon {
+        color: $navbar-color;
+        width: 50px;
+        height: auto;
+        margin: 0 1rem;
+      }
+      .icon:hover {
+        color: black;
+      }
+    }
   }
 }

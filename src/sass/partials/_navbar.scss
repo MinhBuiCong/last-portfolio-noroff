@@ -8,7 +8,7 @@
     justify-content: space-between;
     .nav-brand {
       text-align: center;
-      color: white;
+      color: $heading-color;
       font-weight: bold;
       font-size: $heading-secondary;
       margin: 0;
@@ -19,7 +19,7 @@
       justify-content: space-around;
       .link {
         text-decoration: none;
-        color: white;
+        color: $heading-color;
         margin-left: 1rem;
       }
       .link:hover {
