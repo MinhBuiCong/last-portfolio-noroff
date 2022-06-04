@@ -7,6 +7,8 @@ export const ProjectData = [
     id: 0,
     title: "Holidaze",
     image: holidaze,
+    shortDescription:
+      "Holidaze is the final project exam in Noroff, here we got in assignment to create a hotel booking website",
     description: "holidaze description",
     startDate: "April 2022",
     endDate: "May 2022",
@@ -18,6 +20,8 @@ export const ProjectData = [
     id: 1,
     title: "JS framework",
     image: jsFrameworks,
+    shortDescription:
+      "JS framework is a course assignment where we had to show what we have learned from this course.",
     description: "JS framework description",
     startDate: "March 2022",
     endDate: "March 2022",
@@ -29,6 +33,8 @@ export const ProjectData = [
     id: 2,
     title: "Tekshop",
     image: tekshop,
+    shortDescription:
+      "Tekshop is the last semester project from Noroff. Here we had to show how to handle data through Strapi and Heroku.",
     description: "Tekshop description",
     startDate: "November 2021",
     endDate: "December 2021",
