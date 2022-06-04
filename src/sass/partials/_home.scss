@@ -27,16 +27,19 @@
     text-align: center;
     max-width: 800px;
     margin-bottom: 2rem;
-    background-color: white;
+    background-color: $text-background-color;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
+    .about-text {
+      color: black;
+    }
   }
   .about-link-container {
     margin-bottom: 2rem;
     padding: 2rem;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
-    background-color: white;
+    background-color: $text-background-color;
     max-width: 800px;
     .about-link-title {
       margin-bottom: 2rem;
@@ -51,6 +54,19 @@
       }
       .icon:hover {
         color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .about-container {
+    .about-link-container {
+      .about-link {
+        .icon {
+          margin: 0 0.5rem;
+          width: 40px;
+        }
       }
     }
   }
