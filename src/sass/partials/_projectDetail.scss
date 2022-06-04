@@ -91,10 +91,11 @@
     }
   }
 }
+
 @media screen and (max-width: 400px) {
   .detail-container {
     .detail-description-container {
-      min-width: 400px;
+      width: 300px;
     }
   }
 }
