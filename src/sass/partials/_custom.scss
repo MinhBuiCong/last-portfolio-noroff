@@ -26,6 +26,8 @@ $text-head: 24px;
 
 main {
   margin: 0 auto;
+  background-color: $navbar-color;
+  min-height: 100vh;
 }
 
 h1 {
