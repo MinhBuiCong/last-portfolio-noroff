@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
 function Projects({ data }) {
-  const { id, title, shortDescription } = data;
+  const { id, title, shortDescription, gitLink } = data;
   return (
-    <Link to={`${id}`} key={id} className="card-link" state={{ data: data }}>
+    <a href={gitLink} key={id} className="card-link" state={{ data: data }}>
       <Card className="card-container" key={id}>
         <Card.Body className="card-text-container">
           <Card.Title className="card-title">{title}</Card.Title>
           <Card.Text className="card-description">{shortDescription}</Card.Text>
         </Card.Body>
       </Card>
-    </Link>
+    </a>
   );
 }
 Projects.propTypes = {

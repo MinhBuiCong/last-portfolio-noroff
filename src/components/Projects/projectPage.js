@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectData } from "../../constant/projectData";
+import { ProjectData } from "../../data/projectData";
 import Projects from "./projects";
 
 function ProjectPage() {

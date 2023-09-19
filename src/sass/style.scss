@@ -5,5 +5,12 @@
 @import "partials/home";
 
 * {
-  font-family: $font-heading;
+	font-family: $font-heading;
+}
+
+main {
+	background-image: url("../image/backdrop.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
